@@ -10,5 +10,11 @@ Datafusion simply polls a static resource on a period defined by the user, and l
 
 **DISCLAIMER:** This is NOT and open-source project, and default copyright laws apply. You may not copy or distribute this work without permission; especially if it's for commercial gain. If you are interested in using this application and/or developing it or have suggestions, please get in touch with me :)
 
-![Tablet view](prototype/Tablet.png)
-![Thresholds](prototype/DataMapActivity.png)
+<div>
+  <div style="float:left;">
+    <img src="prototype/Tablet.png">
+  </div>
+  <div style="float:right;">
+    <img src="prototype/DataMapActivity.png" width="240" height="476">
+  </div>
+</div>
