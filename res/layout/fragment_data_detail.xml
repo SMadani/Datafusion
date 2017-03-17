@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:id="@+id/data_detail"
+          android:orientation="vertical"
+          style="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:padding="16dp"
+          android:textIsSelectable="true"
+          tools:context=".DataDetailFragment" >
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editURL" android:text="@string/data_url"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editName" android:text="@string/data_name"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/data_keys"
+            android:id="@+id/keyTextView" android:layout_gravity="center_horizontal"/>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/keyListView"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"/>
+</LinearLayout>

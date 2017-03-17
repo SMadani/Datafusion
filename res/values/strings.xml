@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Datafusion</string>
+    <string name="data_add">Add data</string>
+    <string name="action_info">Information</string>
+    <string name="action_add">Add data source</string>
+    <string name="action_done">Done</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="data_name">Data name</string>
+    <string name="data_url">Data source URL</string>
+    <string name="data_importance">Priority</string>
+    <string name="data_keys">Data Fields</string>
+    <string name="data_reading">Current reading</string>
+    <string name="data_target">Target value</string>
+    <string name="data_unavailable">Unknown</string>
+    <string name="data_low">Low threshold</string>
+    <string name="data_high">High threshold</string>
+    <string name="data_save">Save</string>
+    <string name="data_cancel">Cancel</string>
+    <string name="data_enabled">Enabled</string>
+    <string name="settings_wifi">Update on Wi-Fi only</string>
+    <string name="settings_notifications">Allow notifications</string>
+    <string name="settings_frequency">Update interval (in minutes)</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings_sms">Send text</string>
+    <string name="settings_phoneNumber">Number to text</string>
+    <string name="help_info">Instructions will appear here soon!</string>
+</resources>

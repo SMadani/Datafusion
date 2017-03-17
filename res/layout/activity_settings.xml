@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/settingsRootView"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clickable="true" android:focusable="true" android:focusableInTouchMode="true">
+    <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_wifi"
+            android:id="@+id/wifiSwitch"
+            android:checked="true"
+            style="@style/SwitchText"
+            android:layout_marginTop="33dp"
+            android:layout_below="@+id/frequencyValueView" android:layout_alignLeft="@+id/frequencyTextView"
+            android:layout_alignStart="@+id/frequencyTextView"/>
+    <Switch style="@style/SwitchText" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/settings_notifications" android:id="@+id/notificationsSwitch"
+            android:checked="true"
+            android:layout_marginTop="55dp"
+            android:layout_below="@+id/wifiSwitch" android:layout_alignStart="@+id/wifiSwitch"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:id="@+id/frequencyValueView"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/frequencyTextView" android:layout_centerHorizontal="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/settings_frequency"
+            android:id="@+id/frequencyTextView"
+            android:layout_marginTop="41dp"
+            android:layout_marginLeft="30dp" android:layout_marginStart="30dp"
+            android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+    <Switch style="@style/SwitchText" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/settings_sms" android:id="@+id/smsSwitch" android:checked="true"
+            android:layout_marginTop="48dp"
+            android:layout_below="@+id/notificationsSwitch" android:layout_alignLeft="@+id/notificationsSwitch"
+            android:layout_alignStart="@+id/notificationsSwitch"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/settings_phoneNumber"
+              android:id="@+id/textView" android:layout_marginTop="34dp"
+              android:layout_below="@+id/smsSwitch" android:layout_alignLeft="@+id/smsSwitch"
+              android:layout_alignStart="@+id/smsSwitch"/>
+    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="phone"
+              android:id="@+id/phoneNumberValueView"
+              android:layout_below="@+id/textView" android:layout_alignRight="@+id/notificationsSwitch"/>
+</RelativeLayout>

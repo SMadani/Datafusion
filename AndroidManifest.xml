@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="uk.co.synatronics.Datafusion"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <application android:label="@string/app_name" android:icon="@drawable/df_logo" android:allowBackup="true" android:largeHeap="false">
+        <activity android:name="MainActivity"
+                  android:label="@string/app_name" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DataDetailActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".DataMapActivity" android:label="Data field"/>
+        <activity android:name=".SettingsActivity" android:label="Settings"/>
+        <activity android:name=".HelpActivity" android:label="Getting started"/>
+        <service android:name=".DataRetrieverService" android:label="Datafusion retriever"/>
+    </application>
+</manifest>
