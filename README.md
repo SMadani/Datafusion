@@ -8,4 +8,4 @@ Please note that the resource a given URL points to must be a static text file i
 
 Datafusion simply polls a static resource on a period defined by the user, and looks for changes in the values. Since the data from all provided resources are also stored in a local SQLite database, the user can view the values even when the resource is not accessible.
 
-Disclaimer: This is NOT and open-source project, and default copyright laws apply. You may not copy or distribute this work without permission; especially if it's for commercial gain. If you are interested in using this application and/or developing it or have suggestions, please get in touch with me :)
+**DISCLAIMER:** This is NOT and open-source project, and default copyright laws apply. You may not copy or distribute this work without permission; especially if it's for commercial gain. If you are interested in using this application and/or developing it or have suggestions, please get in touch with me :)
